@@ -7,20 +7,20 @@ using namespace std;
 
 class Product {
 private:
-    string maSanPham; // Thu?c tnh 1
-    string tenSanPham; // Thu?c tnh 2
-    float gia;             // Thu?c tnh 3
+    string maSanPham; 
+    string tenSanPham; 
+    float gia;             
 
 public:
-    Product();  // H?m t?o
-    ~Product(); // H?m h?y
+    Product();  
+    ~Product(); 
 
-    // Ph??ng th?c
-    void themSanPham();                // Ph??ng th?c 1
-    void hienThi() const;              // Ph??ng th?c 2
-    bool timKiem(const string& ma) const; // Phng th?c 3
+    
+    void themSanPham();               
+    void hienThi() const;             
+    bool timKiem(const string& ma) const; 
 
-    // Getter? truy c?p thu?c tnh
+   
     string getMaSanPham() const { return maSanPham; }
     string getTenSanPham() const { return tenSanPham; }
     float getGia() const { return gia; }
